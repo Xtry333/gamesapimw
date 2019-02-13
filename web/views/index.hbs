@@ -1,0 +1,19 @@
+<div class='tile-container'>
+    {{#each games}}
+        <a href='/game/{{_id}}' class='link-unstyled tile-holder border border-dark rounded'>
+            <div class='tile'>
+                <div class='tile-header'>
+                    <h5 class='tile-title'>{{name}}</h5>
+                </div>
+                {{#if image}}
+                    <div class="tile-img-holder">
+                        <img class='tile-img' src='{{image}}'>
+                    </div>
+                {{/if}}
+                <div class="tile-desc">
+                    {{description}}
+                </div>
+            </div>
+        </a>
+    {{/each}}
+</div>

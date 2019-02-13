@@ -1,0 +1,197 @@
+.form-control{
+    height: 40px;
+    box-shadow: none;
+    color: #969fa4;
+}
+.form-control:focus{
+    border-color: #5cb85c;
+}
+.form-control, .btn{        
+    border-radius: 3px;
+}
+.signup-form{
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.signup-form h2{
+    color: #636363;
+    margin: 0 0 15px;
+    position: relative;
+    text-align: center;
+}
+.signup-form h2:before, .signup-form h2:after {
+    content: "";
+    height: 2px;
+    width: 30%;
+    background: #d4d4d4;
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+}	
+.signup-form h2:before{
+    left: 0;
+}
+.signup-form h2:after{
+    right: 0;
+}
+.signup-form .hint-text{
+    color: #999;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.signup-form form{
+    color: #999;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background: #f2f3f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.signup-form .form-group{
+    margin-bottom: 20px;
+}
+.signup-form input[type="checkbox"]{
+    margin-top: 3px;
+}
+.signup-form .btn{        
+    font-size: 16px;
+    font-weight: bold;		
+    min-width: 140px;
+    outline: none !important;
+}
+.signup-form .row div:first-child{
+    padding-right: 10px;
+}
+.signup-form .row div:last-child{
+    padding-left: 10px;
+}    	
+.signup-form a{
+    color: #fff;
+    text-decoration: underline;
+}
+.signup-form a:hover{
+    text-decoration: none;
+}
+.signup-form form a{
+    color: #5cb85c;
+    text-decoration: none;
+}	
+.signup-form form a:hover{
+    text-decoration: underline;
+}  
+.login-form {
+    width: 340px;
+    margin: 50px auto;
+}
+.login-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+}
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.btn {        
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.profile-edit-form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.profile-edit-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.profile-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.profile-container .inside {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.tile-container {
+    margin: 35px auto;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.tile-holder {
+    margin: 10px;
+    width: 250px;
+    height: 350px;
+    flex-direction: column;
+    display: inline-flex;
+    text-align: left;
+    overflow: hidden;
+}
+
+.tile-title {
+    font-weight: 500;
+    line-height: 1.0;
+    margin-top: 3px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tile-img-holder {
+    text-align: center;
+}
+
+.tile-img {
+    max-height: 116px;
+    margin: auto;
+    text-align: center;
+}
+
+.tile-header {
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    height: 50;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+
+.tile-desc {
+    padding: 10px;
+    padding-top: 5px;
+    overflow: hidden;
+}
+
+a.link-unstyled {
+    text-decoration: none;
+    color: inherit;
+}
+
+.game-edit-form {
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.game-edit-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}

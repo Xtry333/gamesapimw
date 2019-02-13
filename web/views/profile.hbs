@@ -1,0 +1,61 @@
+<div class="profile-container">
+    <div class="inside">
+        <h2>Your Profile</h2>
+        <div class="simple-info">
+            <div class="row">
+                <div class="col-md-6">
+                    <label>Username</label>
+                </div>
+                <div class="col-md-6">
+                    <p>{{data.user.username}}</p>
+                </div>
+            </div>
+            {{#if data.user.firstname}}
+            <div class="row">
+                <div class="col-md-6">
+                    <label>Name</label>
+                </div>
+                <div class="col-md-6">
+                    <p>{{data.user.firstname}} {{data.user.lastname}}</p>
+                </div>
+            </div>
+            {{/if}}
+            <div class="row">
+                <div class="col-md-6">
+                    <label>Email</label>
+                </div>
+                <div class="col-md-6">
+                    <p>{{data.user.email}}</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label>Gender</label>
+                </div>
+                <div class="col-md-6">
+                    <p>{{data.user.gender}}</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label>Account Created</label>
+                </div>
+                <div class="col-md-6">
+                    <p>{{data.user.creation}}</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <form action="/user/editprofile" class="d-inline">
+                        <button type="submit" class="btn btn-primary btn-inline">Edit Profile</button>
+                    </form>
+                </div>
+                <div class="col">
+                    <form action="/user/logout" class="d-inline">
+                        <button type="submit" class="btn btn-primary btn-inline">Logout</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
