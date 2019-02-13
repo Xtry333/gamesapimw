@@ -68,7 +68,7 @@ router.get('/delete/:gameID', function(req, res, next) {
 });
 
 router.get('/list/', function(req, res, next) {
-    if (req.session && req.session.editpower) {
+    if (req.session) {
         request(`${apiAddress}/games`, {json: true, method: 'get'}, (err, response, body) => {
             if (!err && response.statusCode == 200) {
                 const games = body.games;
